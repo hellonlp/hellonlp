@@ -9,7 +9,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setup(
     name="hellonlp",
-    version=hellonlp.__version__,
+    version="0.1.0",
     author="MingChen",
     author_email="chenming9109@163.com",
     description="NLP tools",
