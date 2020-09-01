@@ -311,7 +311,7 @@ class FullTokenizer(object):
 
 
 if __name__ == '__main__':
-    vocab_file = 'dict/vocab_chinese.txt'
+    vocab_file = 'dict/vocabulary.txt'
     tokenizer = FullTokenizer.from_scratch(vocab_file=vocab_file,
                                            do_lower_case=True, 
                                            spm_model_file=None)   
