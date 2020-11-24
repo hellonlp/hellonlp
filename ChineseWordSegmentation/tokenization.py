@@ -10,7 +10,6 @@ Created on Tue Aug 25 17:01:07 2020
 import six
 import collections
 import unicodedata
-#import sentencepiece as spm
 from hellonlp.ChineseWordSegmentation.utils import ToolWord
 
 
@@ -256,22 +255,21 @@ class WordpieceTokenizer(object):
         for token in whitespace_tokenize(text):
             chars = list(token)
             if len(chars) > self.max_input_chars_per_word:
-                #print('1'*30)
+ 
                 output_tokens.append(self.unk_token)
                 continue
 
             is_bad = False
             start = 0
             sub_tokens = []
-            #print('chars',chars,len(chars))
+
             while start < len(chars):
-                #print('start',start)
+
                 end = len(chars)
                 cur_substr = None
                 while start < end:
                     substr = "".join(chars[start:end])
-                    #if start > 0:
-                    #    substr = "##" + six.ensure_str(substr)
+
                     if substr in self.vocab:
                         cur_substr = substr
                         break
@@ -281,12 +279,12 @@ class WordpieceTokenizer(object):
                     break
                 sub_tokens.append(cur_substr)
                 start = end
-           # print('3'*30,sub_tokens)
+
             # if all element in sub_tokens are number, we combine these number.
             if ToolWord().is_all_number_list(sub_tokens):
                 sub_tokens = [''.join(sub_tokens)]
             if is_bad:
-                #print('2'*30,sub_tokens)
+
                 output_tokens.append(self.unk_token)
             else:
                 output_tokens.extend(sub_tokens)
