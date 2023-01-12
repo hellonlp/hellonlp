@@ -20,5 +20,5 @@ Here are some ideas to get you started:
 - 🤔 从事于自然语言处理相关工作
 
 
-![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=hellonlp&show_icons=true&theme=dark)
+![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&show_icons=true&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HelloNLP&show_icons=true&theme=dark)
