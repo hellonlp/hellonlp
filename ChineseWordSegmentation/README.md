@@ -1,6 +1,7 @@
 # New Word Discovery: 新词发现
 
-**安装**  
+
+**安装**
 ```
 pip3 install hellonlp
 ```
