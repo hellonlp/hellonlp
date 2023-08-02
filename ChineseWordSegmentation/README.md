@@ -10,6 +10,8 @@ words = segment_entropy.get_words(["HelloNLP会一直坚持开源和贡献",
                             "HelloNLP之后还会支持深度学习的分词",
                             "HelloNLP目前只支持python",])
 print(words[:100]
-['hellonlp', 'hellonl', 'nlp', 'nl', 'hello']
+# ['hellonlp', 'hellonl', 'nlp', 'nl', 'hello']
 ```
+
+**文章**
 知乎链接：https://zhuanlan.zhihu.com/p/210584733
