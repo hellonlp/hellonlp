@@ -1,5 +1,10 @@
 # New Word Discovery: 新词发现
 
+**安装**  
+```
+pip3 install hellonlp
+```
+
 **使用**
 ```
 from hellonlp.ChineseWordSegmentation import segment_entropy
