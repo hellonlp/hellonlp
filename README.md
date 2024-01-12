@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ### 你好，我是HelloNLP. 👋
-
+- 😄 huggingface: <a href="https://huggingface.co/hellonlp">hellonlp</a>
 - 🌱 知乎地址：<a href="https://www.zhihu.com/people/hellonlp">hellonlp</a>
 - 👯 个人平台：<a href="http://www.hellonlp.com/">hellonlp</a>
 - 🤔 从事于自然语言处理相关工作
