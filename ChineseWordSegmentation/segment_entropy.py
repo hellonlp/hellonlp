@@ -6,12 +6,10 @@ Created on Mon Aug 24 20:25:51 2020
 """
 
 
-
 from hellonlp.ChineseWordSegmentation.modules import get_scores 
 from hellonlp.ChineseWordSegmentation.hyperparameters import Hyperparamters as hp
 from hellonlp.ChineseWordSegmentation.utils import sentence_split_regex,remove_characters_irregular
 
-    
     
 def get_words(corpus,
                top_k = hp.top_k,
@@ -43,7 +41,7 @@ def get_words(corpus,
     
     
 if __name__ == '__main__':
-    ## 加载数据
+    # 加载数据
     from hellonlp.ChineseWordSegmentation.utils import load_excel_only_first_sheet
     f = 'data/data.xlsx'
     contents = load_excel_only_first_sheet(f).fillna('')['content'].tolist()[:100]
@@ -52,11 +50,3 @@ if __name__ == '__main__':
     #contents = ['23','dsad','dwq']
     words = get_words(contents)  
     print(words[:100])
-
-
-
-    
-    
-    
-
-
