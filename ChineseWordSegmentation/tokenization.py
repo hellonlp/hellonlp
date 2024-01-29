@@ -6,10 +6,10 @@ Created on Tue Aug 25 17:01:07 2020
 """
 
 
-
 import six
 import collections
 import unicodedata
+
 from hellonlp.ChineseWordSegmentation.utils import ToolWord
 
 
@@ -319,20 +319,6 @@ if __name__ == '__main__':
     tokenizer = FullTokenizer.from_scratch(vocab_file=vocab_file,
                                            do_lower_case=True, 
                                            spm_model_file=None)   
-    #
     text = 'USA和CHINA都是世界上的大国,Donald Trump是美国总统'
     print(tokenizer.tokenize(text))
     
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
