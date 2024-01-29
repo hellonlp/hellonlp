@@ -12,6 +12,7 @@ import collections
 from operator import mul
 from pygtrie import Trie
 from functools import reduce
+
 from hellonlp.ChineseWordSegmentation.utils import calcul_word_frequence
 from hellonlp.ChineseWordSegmentation.probability import entropy_of_list
 from hellonlp.ChineseWordSegmentation.hyperparameters import Hyperparamters as hp
@@ -19,11 +20,9 @@ from hellonlp.ChineseWordSegmentation.utils import ToolWord
 from hellonlp.ChineseWordSegmentation.tokenization import FullTokenizer
 
 
-
 tokenizer = FullTokenizer.from_scratch(vocab_file=hp.vocab_file,
                                        do_lower_case=True, 
                                        spm_model_file=None)   
-
 
 
 def generate_ngram(corpus,n=2):
@@ -209,12 +208,5 @@ def get_scores(corpus,
     return word_info_scores
 
 
-
-
 if __name__ == '__main__':
-    ## Load data
-    print('1')
-
-
-
-
+  pass
