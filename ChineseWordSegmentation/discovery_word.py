@@ -12,9 +12,7 @@ from hellonlp.ChineseWordSegmentation.hyperparameters import Hyperparamters as h
 from hellonlp.ChineseWordSegmentation.utils import load_excel_only_first_sheet,ToolWord
 
 
-
 vocabulary_set = set(load_txt(hp.file_vocabulary))
-
 
 
 def get_words_new(corpus):
@@ -26,7 +24,6 @@ def get_words_new(corpus):
     words_clean = [l for l in words if ToolWord().remove_word_special(l)!='']
     print('Length of words(clean):',len(words_clean))
     return [w for w in words_clean if w not in vocabulary_set]
-
 
 
 
@@ -45,17 +42,3 @@ if __name__ == '__main__':
     nws = get_words_new(contents)  
     print(nws[:200])
     print(len(nws))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
