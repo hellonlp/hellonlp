@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ### 你好，我是HelloNLP. 👋
-- 🤗 huggingface: <a href="https://huggingface.co/hellonlp">hellonlp</a>
-- 🌱 知乎：<a href="https://www.zhihu.com/people/hellonlp">hellonlp</a>
-- 👯 个人：<a href="http://www.hellonlp.com/">hellonlp</a>
+- 🤗 ：<a href="https://huggingface.co/hellonlp">huggingface</a>
+- 🌱 ：<a href="https://www.zhihu.com/people/hellonlp">知乎</a>
+- 👯 ：<a href="http://www.hellonlp.com/">个人</a>
 
 
 ![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&show_icons=true&theme=dark)
