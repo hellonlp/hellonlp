@@ -20,5 +20,5 @@ Here are some ideas to get you started:
 
 
 ![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&show_icons=true&theme=dark)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP)](https://github.com/anuraghazra/github-readme-stats)
+[[HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP)](https://github.com/anuraghazra/github-readme-stats)
 
