@@ -19,6 +19,4 @@ Here are some ideas to get you started:
 - 👯 ：<a href="http://www.hellonlp.com/">hellonlp</a>
 
 
-![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&show_icons=true&theme=dark)
-
-![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&hide=contribs,prs)
+![HelloNLP's GitHub stats](https://github-readme-stats.vercel.app/api?username=HelloNLP&show_icons=true&theme=radical)
